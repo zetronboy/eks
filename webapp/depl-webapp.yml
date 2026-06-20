@@ -1,4 +1,9 @@
-
+---
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: web
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
